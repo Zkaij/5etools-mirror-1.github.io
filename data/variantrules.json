@@ -3861,6 +3861,7 @@
 			"page": 1,
 			"ruleType": "VO",
 			"type": "section",
+			"ruleType": "V",
 			"entries": [
 				{
 					"type": "entries",
