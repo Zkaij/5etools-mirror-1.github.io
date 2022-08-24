@@ -1058,7 +1058,7 @@
 			"classSource": "PHB",
 			"level": 1,
 			"entries": [
-				"Your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are shortswords and any simple melee weapons that don't have the two-handed or heavy property.",
+				"Your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are {@item shortswords} and any {@filter simple melee weapons that don't have the two-handed or heavy property|items|source=|type=simple weapon|property=!heavy;!special}.",
 				"You gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a shield.",
 				{
 					"type": "list",
@@ -1082,7 +1082,7 @@
 			"entries": [
 				"{@i 1st-level monk feature (enhances Martial Arts)}",
 				"You can use this feature to define your monk weapons, rather than using the definition in Martial Arts.",
-				"You practice your martial arts with specially chosen weapons, which become monk weapons for you. You can choose a number of weapons to be your monk weapons equal to 5 + your Wisdom modifier (minimum of five weapons). The chosen weapons must each meet the following criteria:",
+				"You practice your martial arts with specially chosen weapons, which become monk weapons for you. You can choose a number of weapons to be your monk weapons equal to 5 + your Wisdom modifier (minimum of five weapons). The chosen weapons must each meet {@filter the following criteria|items|source=|type=simple weapon;martial weapon|property=!heavy;!two-handed;!special}:",
 				{
 					"type": "list",
 					"items": [
@@ -1116,7 +1116,7 @@
 			"entries": [
 				"{@i 2nd-level monk {@variantrule optional class features|tce|optional feature}}",
 				"You train yourself to use a variety of weapons as monk weapons, not just simple melee weapons and shortswords. Whenever you finish a short or long rest, you can touch one weapon, focus your ki on it, and then count that weapon as a monk weapon until you use this feature again.",
-				"The chosen weapon must meet these criteria:",
+				"The chosen weapon must meet {@filter these criteria|items|source=|type=simple weapon;martial weapon|property=!heavy;!special}:",
 				{
 					"type": "list",
 					"items": [
